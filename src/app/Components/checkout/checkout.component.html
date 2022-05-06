@@ -1,0 +1,52 @@
+<app-topnavbar></app-topnavbar>
+  <body>
+
+
+
+  <div class="Cart-Container">
+    <div class="Header">
+      <h3 class="Heading">Shopping Cart</h3>
+    </div>
+    <span class="frame-196" *ngFor="let item of  productList ; let i = index ">
+    <div class="Cart-Items">
+      <div class="image-box">
+        <img
+          src="{{item.image}}"
+          style="height: 120px"
+        />
+        <!-- <img src=”images/apple.png” style= { height=”120px” } /> -->
+      </div>
+      <div class="about">
+        <h1 class="title"> {{item.name}}</h1>
+
+
+        <img
+          src="{{item.image}}"
+          style="height: 30px"
+        />
+        <!-- <img src=”images/veg.png” style =  height=”30px” /> -->
+      </div>
+      <div class="counter"></div>
+      <div class="prices"></div>
+      <div class="counter">
+        <div (click)="addProduct1(item,i)" class="btn">+</div>
+      {{item.count}}
+        <div (click)="remove(item,i)" class="btn">-</div>
+      </div>
+
+      <!-- <div class="prices">
+        <div class="amount">Rs: {{item.price*item.count}}</div>
+      </div> -->
+    </div>
+    <hr />
+    <br>
+  </span>
+  <br>
+  <div class="checkout">
+    <button (click)="navigateToForms()" class="button">Procced</button>
+  </div>
+  </div>
+
+  </body>
+
+

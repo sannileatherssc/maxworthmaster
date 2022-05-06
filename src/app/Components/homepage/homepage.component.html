@@ -1,0 +1,460 @@
+<app-topnavbar></app-topnavbar>
+<body>
+  <ul class="flex-container">
+    <li class="flex-item1">
+      <div class="internal_flex">
+        <div class="head_content">
+          Maxworth provides some of the most advanced, end-to-end solutions. In
+          the Automatic Identification & Data Capture Industry.
+        </div>
+
+        <div class="mid_content">
+          To help you track everything from your Inventory to Work-In-progress
+          to Warehouse to Goods-In-Transit and so on. Incorporating the latest
+          technologies like Barcode, RFID, SMART Cards, Mobile Computing and
+          W-LAN, our products and solutions are used by some of the largest
+          companies in Manufacturing, Telecom, Airlines, Service Sector and
+          Government.
+        </div>
+
+        <div routerLink="/aviationsector" class="end_content">
+          <span class="cont">More Details</span>
+        </div>
+      </div>
+    </li>
+    <li class="flex-item1">
+      <div class="img_content">
+        <!-- svg -->
+
+        <!-- <img
+          href="../../../assets/img/air-radio.png"
+          class="aviation-logo"
+          src="../../../assets/img/air-radio.png"
+          width="400px"
+          height="400px"
+        /> -->
+
+        <!-- Adding slider here -->
+        <section class="carousel" aria-label="Gallery">
+          <ol class="carousel__viewport">
+            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+              <div class="carousel__snapper">
+                <a href="#carousel__slide4" class="carousel__prev"
+                  >Go to last slide</a
+                >
+                <a href="#carousel__slide2" class="carousel__next"
+                  >Go to next slide</a
+                >
+              </div>
+            </li>
+            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide1" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide3" class="carousel__next"
+                >Go to next slide</a
+              >
+            </li>
+            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide2" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide4" class="carousel__next"
+                >Go to next slide</a
+              >
+            </li>
+            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+              <div class="carousel__snapper"></div>
+              <a href="#carousel__slide3" class="carousel__prev"
+                >Go to previous slide</a
+              >
+              <a href="#carousel__slide1" class="carousel__next"
+                >Go to first slide</a
+              >
+            </li>
+          </ol>
+        </section>
+      </div>
+    </li>
+  </ul>
+
+  <!-- solution vertical -->
+
+  <div class="product-1">
+    <h1>Solution Vertical</h1>
+  </div>
+
+  <br />
+
+  <ul class="flex-container">
+    <li class="flex-item" (click)="navigateToAviationsector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/aviation1.jpg"
+          class="aviation-logo"
+          src="../../../assets/img/aviation1.jpg"
+        />
+      </div>
+
+      <div class="title_box">AVIATION</div>
+      <div class="content_box">
+        We provide an aviation industry solution that makes everyday operations
+        effortless. Whether a ticket needs to be printed or barcode needs to be
+        scanned,
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToEgovernancesector()">
+      <div class="img_box">
+        <div class="img_box">
+          <img
+            href="../../../assets/img/university1.png"
+            class="aviation-logo"
+            src="../../../assets/img/university1.png"
+          />
+        </div>
+      </div>
+      <div class="title_box">E-GOVERNANCE</div>
+      <div class="content_box">
+        Choose our E- Governance services for Quality information services. Our
+        electronic governance application provides quick and easy access to
+        solve any critical situation
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToFriendlymobilesector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/mobile1.png"
+          class="aviation-logo"
+          src="../../../assets/img/mobile1.png"
+        />
+      </div>
+
+      <div class="title_box">FIELD MOBILITY</div>
+      <div class="content_box">
+        Field mobility eliminates the usage of paper trail and store electronic
+        proofs and information.Our easy to navigate mobile and wireless
+        computing system
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToHealthcaresector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/healthworker1.png"
+          class="aviation-logo"
+          src="../../../assets/img/healthworker1.png"
+        />
+      </div>
+
+      <div class="title_box">HEALTH CARE</div>
+      <div class="content_box">
+        Healthcare solutions not only helps running a business but increase
+        Patient’s satisfaction level to a very high percentage.
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToHospitalitysector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/hospital1.png"
+          class="aviation-logo"
+          src="../../../assets/img/hospital1.png"
+        />
+      </div>
+
+      <div class="title_box">HOSPITALITY</div>
+      <div class="content_box">
+        Hospitality solutions that are built from pioneered technology that
+        makes every touch point of customer’s journey more enticing and provide
+        top notch communication between operations and management.
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToManufacturingsector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/manufacturing1.png"
+          class="aviation-logo"
+          src="../../../assets/img/manufacturing1.png"
+        />
+      </div>
+
+      <div class="title_box">MANUFACTURING</div>
+      <div class="content_box">
+        Maxworth manufacturing solutions provides real time and cost friendly
+        results. Innovation driven and optimized operations would maximize the
+        profits
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToRetailsector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/retail1.png"
+          class="aviation-logo"
+          src="../../../assets/img/retail1.png"
+        />
+      </div>
+
+      <div class="title_box">RETAIL</div>
+      <div class="content_box">
+        An integrated retail solution consists of data and hardware that turns
+        all the information into profit. Retail solutions are a huge part of
+        customer’s journey and require skills
+      </div>
+    </li>
+    <li class="flex-item" (click)="navigateToTelcomsector()">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/telcom1.png"
+          class="aviation-logo"
+          src="../../../assets/img/telcom1.png"
+        />
+      </div>
+
+      <div class="title_box">TELECOM</div>
+      <div class="content_box">
+        Telecommunication solutions that bridge the gap between consumers and
+        businesses cater to increase efficiency and foster innovation.
+      </div>
+    </li>
+  </ul>
+
+  <br />
+  <br />
+
+  <div class="product-1">
+    <h1>Products</h1>
+  </div>
+
+  <!-- Product images -->
+
+  <ul class="flex-container">
+    <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/aviation1 (1).jpg"
+          class="aviation-logos"
+          src="../../../assets/img/aviation1 (1).jpg"
+        />
+      </div>
+
+      <div class="title_box">AVIATION PRINTER</div>
+      <div class="content_box1">
+        Top quality aviation printers with high-speed response and easy to
+        navigate features. Our printers are equipped with high resolution
+        printing
+        <div>
+          <button (click)="navigateToAviationprinter()" class="button2">
+            More
+          </button>
+        </div>
+      </div>
+    </li>
+    <li class="flex-item">
+     
+        <div class="img_box">
+          <img
+            href="../../../assets/img/barcode1 (1).jpg"
+            class="aviation-logos"
+            src="../../../assets/img/barcode1 (1).jpg"
+          />
+        </div>
+     
+      <div class="title_box">BARCODE SCANNER</div>
+      <div class="content_box1">
+        Our barcode scanners can anticipate any challenges so that you can scan
+        at any given time, anywhere. Scanning abilities is the task
+        <div>
+          <button (click)="navigateToBarcodescanner()" class="button2">
+            More
+          </button>
+        </div>
+      </div>
+    </li>
+    <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/barcode1 (2).jpg"
+          class="aviation-logos"
+          src="../../../assets/img/barcode1 (2).jpg"
+        />
+      </div>
+
+      <div class="title_box">DOCUMENT READER</div>
+      <div class="content_box1">
+        A solution for travel or identification, Document reader will provide
+        efficient and fast result in any document reading.
+
+        <div>
+          <button (click)="navigateToDocumentreader()" class="button2">
+            More
+          </button>
+        </div>
+      </div>
+    </li>
+
+    <!-- Commenting go to air card here -->
+    <!-- <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/air-radio.png"
+          class="aviation-logo"
+          src="../../../assets/img/air-radio.png"
+        />
+      </div>
+
+      <div class="title_box">GO TO AIR RADIO</div>
+      <div class="content_box1">
+        Aviation Industry uses Mobility solution to offer better service to
+        passengers at various touch points.
+        <div>
+          <button (click)="navigateToAirradio()" class="button2">More</button>
+        </div>
+      </div>
+    </li> -->
+
+    <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/friendly1 (1).jpg"
+          class="aviation-logos"
+          src="../../../assets/img/friendly1 (1).jpg"
+        />
+      </div>
+
+      <div class="title_box">MOBILE COMPUTER</div>
+      <div class="content_box1">
+        Our Full integrated computers that make travelling and walking around
+        with endless information possible.
+        <div>
+          <button (click)="navigateToMobilecomputers()" class="button2">
+            More
+          </button>
+        </div>
+      </div>
+    </li>
+    <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/printer1 (1).jpg"
+          class="aviation-logos"
+          src="../../../assets/img/printer1 (1).jpg"
+        />
+      </div>
+
+      <div class="title_box">PRINTER</div>
+      <div class="content_box1">
+        Printers are a backbone of business, even if it’s having a document
+        printed or a photograph. We provide professional yet simple and
+        cost-effective
+        <div>
+          <button (click)="navigateToPrinters()" class="button2">More</button>
+        </div>
+      </div>
+    </li>
+    <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/rfid1 (1).jpg"
+          class="aviation-logos"
+          src="../../../assets/img/rfid1 (1).jpg"
+        />
+      </div>
+
+      <div class="title_box">RFID</div>
+      <div class="content_box1">
+        RFID tags that give quick and clear communications are provided. The
+        wireless communication system is of best quality
+        <div>
+          <button (click)="navigateToRfid()" class="button2">More</button>
+        </div>
+      </div>
+    </li>
+    <li class="flex-item">
+      <div class="img_box">
+        <img
+          href="../../../assets/img/retail1 (1).jpg"
+          class="aviation-logos"
+          src="../../../assets/img/retail1 (1).jpg"
+        />
+      </div>
+
+      <div class="title_box">WIRELESS</div>
+      <div class="content_box1">
+        Our Wireless solutions are focused towards constant customer success.
+        This technology will give you the keen dynamic key scale.
+        <div>
+          <button (click)="navigateToWireless()" class="button2">More</button>
+        </div>
+      </div>
+    </li>
+  </ul>
+
+  <br />
+
+  <!-- our partner -->
+
+  <div class="product-1">
+    <h1>Our Partners</h1>
+  </div>
+
+  <br />
+
+  <ul class="flex-container">
+    <li class="flex-items" (click)="navigateToAviationsector()">
+      <div class="img_box1">
+        <img
+          href="../../../assets/img/intermec.png"
+          class="aviation-logo-partner"
+          src="../../../assets/img/intermec.png"
+        />
+      </div>
+    </li>
+    <li class="flex-items" (click)="navigateToEgovernancesector()">
+      <div class="img_box1">
+        <img
+          href="../../../assets/img/oki.png"
+          class="aviation-logo-partner"
+          src="../../../assets/img/oki.png"
+        />
+      </div>
+    </li>
+
+    <li class="flex-items" (click)="navigateToEgovernancesector()">
+      <div class="img_box1">
+        <img
+          href="../../../assets/img/zebra.png"
+          class="aviation-logo-partner"
+          src="../../../assets/img/zebra.png"
+        />
+      </div>
+    </li>
+
+    <li class="flex-items" (click)="navigateToEgovernancesector()">
+      <div class="img_box1">
+        <img
+          href="../../../assets/img/icts.png"
+          class="aviation-logo-partner"
+          src="../../../assets/img/icts.png"
+        />
+      </div>
+    </li>
+    <li class="flex-items" (click)="navigateToEgovernancesector()">
+      <div class="img_box1">
+        <img
+          href="../../../assets/img/jotronpartner.png"
+          class="aviation-logo-partner"
+          src="../../../assets/img/jotronpartner.png"
+        />
+      </div>
+    </li>
+  </ul>
+
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <!-- footer -->
+
+  <app-footer></app-footer>
+</body>

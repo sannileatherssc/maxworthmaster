@@ -1,0 +1,72 @@
+<body>
+
+  <app-topnavbar></app-topnavbar>
+
+<div class="flex-r container">
+  <div class="flex-r login-wrapper">
+    <div class="login-text">
+      <div class="logo">
+        <span><i class="fab fa-cart"></i></span>
+        <span>Form</span>
+      </div>
+
+      <form class="flex-c">
+        <div class="input-box">
+          <span class="label">Name</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="name" name="name"[(ngModel)]="name">
+          </div>
+        </div>
+
+        <div class="input-box">
+          <span class="label">E-mail</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="name@abc.com" name="email"[(ngModel)]="email">
+          </div>
+        </div>
+
+        <div class="input-box">
+          <span class="label">Mobile-no</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="Enter mobile no here" name="mobile" [(ngModel)]="mobile"/>
+          </div>
+        </div>
+        <div class="input-box">
+          <span class="label">Designation</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="Designation in company"name="desgination" [(ngModel)]="desgination"/>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <span class="label">Company</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="name of the company"name="company" [(ngModel)]="company"/>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <span class="label">Location</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="complete address" name="location" [(ngModel)]="location" />
+          </div>
+        </div>
+
+        <div class="input-box">
+          <span class="label">Whats your query</span>
+          <div class="flex-r input">
+            <input type="text" placeholder="write here"name="query" [(ngModel)]="query"/>
+          </div>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" name="" id="" />
+          <span>All the information is correct provided above</span>
+        </div>
+      </form>
+      <button (click)="send()" class="button1">Place Order</button>
+    </div>
+  </div>
+</div>
+
+</body>
