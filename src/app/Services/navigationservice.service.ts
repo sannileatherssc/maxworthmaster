@@ -87,6 +87,12 @@ export class NavigationserviceService {
     this.route.navigate(['telcomsector']);
   }
 
+  navigateToPrivacypolicy() {
+    this.route.navigate(['privacypolicy']);
+  }
+
+  
+
   navigateToCheckout() {
     this.route.navigate(['checkout']);
   }

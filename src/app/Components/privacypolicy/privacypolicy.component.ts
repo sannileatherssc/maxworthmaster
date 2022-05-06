@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { NavigationserviceService } from 'src/app/Services/navigationservice.service';
 
 @Component({
-  selector: 'app-footer',
-  templateUrl: './footer.component.html',
-  styleUrls: ['./footer.component.css'],
+  selector: 'app-privacypolicy',
+  templateUrl: './privacypolicy.component.html',
+  styleUrls: ['./privacypolicy.component.css'],
 })
-export class FooterComponent implements OnInit {
+export class PrivacypolicyComponent implements OnInit {
   constructor(private navigation: NavigationserviceService) {}
 
   ngOnInit(): void {}
@@ -14,8 +14,4 @@ export class FooterComponent implements OnInit {
   navigateToPrivacypolicy() {
     this.navigation.navigateToPrivacypolicy();
   }
-
-  // navigateToSolutions() {
-  //   this.navigation.navigateToSolutions();
-  // }
 }

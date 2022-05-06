@@ -51,6 +51,7 @@ import { CareerComponent } from './Components/career/career.component';
 import { ClientlistComponent } from './Components/clientlist/clientlist.component';
 import { PartnerlistComponent } from './Components/partnerlist/partnerlist.component';
 import { LeadershipComponent } from './Components/leadership/leadership.component';
+import { PrivacypolicyComponent } from './Components/privacypolicy/privacypolicy.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { LeadershipComponent } from './Components/leadership/leadership.componen
     CareerComponent,
     ClientlistComponent,
     PartnerlistComponent,
-    LeadershipComponent
+    LeadershipComponent,
+    PrivacypolicyComponent
   ],
   imports: [
     BrowserModule,
