@@ -185,6 +185,14 @@ li:hover{
   text-align: left;
 }
 
+.internal_flex2 {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  text-align: left;
+  padding: 120px;
+}
+
 .internal_flex1 {
   display: flex;
   flex-flow: row;
@@ -256,6 +264,10 @@ li:hover{
 div:hover{
   color: #083e88;
   transform: scale(1.1);
+}
+
+br{
+  padding-top: 100px;
 }
 
 .mid_content:hover{

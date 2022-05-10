@@ -1,0 +1,668 @@
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  font-family: poppins;
+
+  /* Then we define the flow direction
+     and if we allow the items to wrap
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+* {
+  font-family: Roboto /* Replace with your custom font */, roboto !important;
+  /* Add !important to overwrite all elements */
+}
+
+.flex-item {
+  background: var(--white);
+  padding: 5px;
+  width: 270px;
+  height: 200px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  box-shadow: 0px 10px 8px #00000040;
+  color: #083e88;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+  justify-content: baseline;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.flex-item11 {
+  background: var(--white);
+  padding: 5px;
+  width: 260px;
+  height: 250px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  box-shadow: 0px 10px 8px #00000040;
+  color: #083e88;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+  justify-content: baseline;
+  cursor: pointer;
+  border-radius: 2rem;
+}
+
+.flex-items {
+  background: var(--white);
+  padding: 5px;
+  width: 190px;
+  height: 100px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  box-shadow: 0px 10px 8px #00000040;
+  color: #083e88;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+  justify-content: baseline;
+  border-radius: 2rem;
+}
+
+.img_box {
+  padding-top: 2px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+.right-image {
+  height: 452px;
+  width: 747px;
+  background: var(--white);
+  padding: 5px;
+  margin-top: 10px;
+
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.left-image {
+  width: 510px;
+  height: 420px;
+  background: var(--white);
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 9px;
+  text-align: left;
+  color: #083e88;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+}
+
+.title_box {
+  text-align: left;
+  background-color: transparent;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 12px;
+  padding-bottom: 10px;
+}
+
+.content_box {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 10px;
+  line-height: 14px;
+  text-align: start;
+}
+
+.content_box1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 12px;
+  line-height: 27px;
+  width: 261px;
+  height: 128px;
+  cursor: pointer;
+}
+
+.logo-1 {
+  width: 250px;
+  height: 78px;
+  margin: 0 25px 47px 19px;
+}
+
+.product-1 {
+  text-align: center;
+  font-family: poppins;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+h1:hover{
+  color: #083e88;
+  transform: scale(1.5);
+}
+
+/* new */
+
+.internal_flex {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.internal_flex1 {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+.flex-item1 {
+  padding: 5px;
+  width: 600px;
+  height: 600px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.flex-item1:hover{
+  color: #000000;
+  transform: scale(1.2px)
+}
+
+
+
+.flex-item2 {
+  padding: 5px;
+  width: 69px;
+  height: 35px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 150px;
+  color: black;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+.flex-item3 {
+  padding-top: 30px;
+  margin-right: 60rem;
+  background-color: navy;
+}
+
+.button {
+  background: var(--white);
+  padding: 5px;
+  width: 261px;
+  height: 400px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  box-shadow: 0px 10px 8px #00000040;
+  color: #083e88;
+  padding-left: 40px;
+  text-align: left;
+  margin-bottom: 80px;
+  justify-content: baseline;
+}
+
+.flex-item4 {
+  padding-top: 30px;
+  justify-content: right;
+}
+
+.img_content1 {
+  margin-top: 30px;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+}
+
+.img_content {
+  width: 510px;
+  height: 420px;
+}
+
+.head_content {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 54px;
+  color: #083e88;
+  margin-bottom: 20px;
+}
+
+.home1 {
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+}
+
+.mid_content {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+
+
+.end_content {
+  background-color: #083e88;
+  width: 180px;
+  height: 60px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 60px;
+  padding-top: 4px;
+  /* identical to box height */
+  cursor: pointer;
+
+  text-align: center;
+
+  color: #e5e5e5;
+  background: #083e88;
+  border-radius: 28px;
+}
+
+.end_content:hover{
+  transform: scale(1.2);
+}
+
+.cont {
+  margin-top: 800px;
+}
+
+.table_content {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.button1 {
+  display: flex;
+  font-family: "Poppins";
+  flex-flow: column;
+  color: #e5e5e5;
+  background-color: #083e88;
+  border-radius: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+/* need to do some changes here */
+.button2 {
+  display: flex;
+  font-family: "Roboto";
+  flex-flow: column;
+  color: #e5e5e5;
+  background-color: #083e88;
+  border-radius: 20px;
+  font-size: 20px;
+  justify-items: center;
+  line-height: 30px;
+  align-items: center;
+  cursor: pointer;
+
+
+}
+
+
+
+/* .li{
+  opacity: 0.5;
+} */
+
+
+
+
+.link1 {
+  color: #083e88;
+}
+
+.form {
+  min-width: 300px;
+}
+
+.input1 {
+  display: flex;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 2px;
+  border-style: dotted;
+  flex-wrap: nowrap;
+  text-decoration: dotted;
+  justify-items: left;
+  gap: 20px;
+}
+
+.aviation-logo1 {
+  width: 1269px;
+  height: 384px;
+}
+
+.aviation-logo {
+  align-items: center;
+  padding-right: 20rem;
+  width: 40px;
+  height: 40px;
+
+}
+
+.aviation-logo-partner {
+  align-items: center;
+  padding-right: 20rem;
+  width: 160px;
+  height: 70px;
+}
+
+.aviation-logo1 {
+  align-items: baseline;
+  padding-right: 20rem;
+
+
+}
+
+li:hover{
+  color: #5E5C6B;
+}
+
+.aviation-logos {
+  align-items: baseline;
+  height: 60px;
+  width: 60px;
+  align-items: center;
+  padding-right: 8rem;
+}
+
+.img_box1 {
+  width: 1269px;
+  height: 384px;
+  align-items: center;
+
+}
+
+.flex-item2 {
+  width: 1269px;
+  height: 304px;
+  flex-grow: 0;
+  margin: 60px 1px 100px 26px;
+  padding: 76px 439px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.25);
+  background-color: #c4c4c4;
+}
+
+.flex-item3 {
+  flex-grow: 0;
+  justify-content: baseline;
+}
+
+@keyframes tonext {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: 100%;
+  }
+  98% {
+    left: 100%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes tostart {
+  75% {
+    left: 0;
+  }
+  95% {
+    left: -300%;
+  }
+  98% {
+    left: -300%;
+  }
+  99% {
+    left: 0;
+  }
+}
+
+@keyframes snap {
+  96% {
+    scroll-snap-align: center;
+  }
+  97% {
+    scroll-snap-align: none;
+  }
+  99% {
+    scroll-snap-align: none;
+  }
+  100% {
+    scroll-snap-align: center;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: transparent;
+  border: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carousel {
+  position: relative;
+  padding-top: 75%;
+  filter: drop-shadow(0 0 10px #0003);
+  perspective: 100px;
+  z-index: 0;
+}
+
+.carousel__viewport {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: scroll;
+  counter-reset: item;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+}
+
+.carousel__slide {
+  position: relative;
+  flex: 0 0 100%;
+  /* width: 100%;
+  height: 100%; */
+  width: 100%;
+  height: 100%;
+  counter-increment: item;
+  background-image: url("../../../assets/img/home1.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: center;
+  border: #083e88;
+}
+
+.carousel__slide:nth-child(2) {
+  background-image: url("../../../assets/img/home2.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: center;
+
+}
+
+.carousel__slide:nth-child(3) {
+  background-image: url("../../../assets/img/home3.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: center;
+
+}
+
+.carousel__slide:nth-child(4) {
+  background-image: url("../../../assets/img/home4.jpg");
+  background-repeat: no-repeat;
+  background-size: 500px 400px;
+  background-position: center;
+
+}
+.carousel__slide:before {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -40%, 70px);
+  color: #fff;
+  font-size: 2em;
+}
+
+.carousel__snapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scroll-snap-align: center;
+}
+
+@media (hover: hover) {
+  .carousel__snapper {
+    animation-name: tonext, snap;
+    animation-timing-function: ease;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+
+  .carousel__slide:last-child .carousel__snapper {
+    animation-name: tostart, snap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__snapper {
+    animation-name: none;
+  }
+}
+
+.carousel:hover .carousel__snapper,
+.carousel:focus-within .carousel__snapper {
+  animation-name: none;
+}
+
+.carousel__navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.carousel__navigation-list,
+.carousel__navigation-item {
+  display: inline-block;
+}
+
+.carousel__navigation-button {
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #333;
+  background-clip: content-box;
+  border: 0.25rem solid transparent;
+  border-radius: 50%;
+  font-size: 0;
+  transition: transform 0.1s;
+}
+
+.carousel::before,
+.carousel::after,
+.carousel__prev,
+.carousel__next {
+  position: absolute;
+  top: 0;
+  margin-top: 37.5%;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+
+.carousel::before,
+.carousel__prev {
+  left: -1rem;
+}
+
+.carousel::after,
+.carousel__next {
+  right: -1rem;
+}

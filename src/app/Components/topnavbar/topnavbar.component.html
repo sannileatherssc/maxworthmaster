@@ -3,9 +3,7 @@
     <img
       src="../../../assets/img/logo (1).jpg "
       alt="../../../assets/img/logo (1).jpg "
-
     />
-
   </div>
   <a href="#" class="toggle-button">
     <span class="bar"></span>
@@ -14,25 +12,38 @@
   </a>
   <div class="navbar-links">
     <ul>
-      <li><button (click)="navigateToHomepage()" class="btn default">Home</button></li>
-      <li><button  class="btn default dropdown">
-        About us
-        <div class="dropdown-content">
-          <a routerLink="/aboutus">About Company</a>
-          <a routerLink="/leadership">Leadership</a>
-          <a routerLink="/clientlist">Client List</a>
-          <a routerLink="/partnershiplist">Partner List</a>
-        </div>
-      </button></li>
-      <li><button routerLink="/product" class="btn default">Product</button></li>
-      <li><button (click)="navigateToSolutions()" class="btn default">Solutions</button></li>
-      <li><button (click)="navigateToConnect()" class="btn default">Contact us</button></li>
-
+      <li>
+        <button (click)="navigateToHomepage()" class="btn default">Home</button>
+      </li>
+      <li>
+        <button class="btn default dropdown">
+          About us
+          <div class="dropdown-content">
+            <a routerLink="/aboutus">About Company</a>
+            <a routerLink="/leadership">Leadership</a>
+            <a routerLink="/clientlist">Client List</a>
+            <a routerLink="/partnershiplist">Partner List</a>
+          </div>
+        </button>
+      </li>
+      <li>
+        <button routerLink="/product2" class="btn default">Products</button>
+      </li>
+      <li>
+        <button (click)="navigateToSolutions()" class="btn default">
+          Solutions
+        </button>
+      </li>
+      <li>
+        <button (click)="navigateToConnect()" class="btn default">
+          Contact us
+        </button>
+      </li>
 
       <li (click)="navigateToCheckout()" class="cart1">
         <img src="../../../assets/img/shopping-cart.png" />
-        <i class="fa" style="font-size:24px"></i>
-        <span class='badge badge-warning' id='lblCartCount'> {{count}} </span>
+        <i class="fa" style="font-size: 24px"></i>
+        <span class="badge badge-warning" id="lblCartCount"> {{ count1 }} </span>
       </li>
 
       <!-- <li><a href="#" onclick="../checkout.component.html">Cart Items</a></li> -->

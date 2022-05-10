@@ -32,6 +32,7 @@ import { PrintersComponent } from './Components/printers/printers.component';
 import { PrintersproductComponent } from './Components/printersproduct/printersproduct.component';
 import { PrivacypolicyComponent } from './Components/privacypolicy/privacypolicy.component';
 import { ProductpageComponent } from './Components/productpage/productpage.component';
+import { Productpage2Component } from './Components/productpage2/productpage2.component';
 import { RetailsectorComponent } from './Components/retailsector/retailsector.component';
 import { RfidComponent } from './Components/rfid/rfid.component';
 import { ServicesComponent } from './Components/services/services.component';
@@ -81,6 +82,7 @@ const routes: Routes = [
   {path:'leadership',component:LeadershipComponent},
   {path:'partnershiplist',component:PartnerlistComponent},
   {path:'privacypolicy',component:PrivacypolicyComponent},
+  {path: 'product2', component:Productpage2Component}
 ];
 
 @NgModule({

@@ -20,8 +20,12 @@ export class TopnavbarComponent implements OnInit,DoCheck {
     }
   }
 
+count1 = 0;
+
   ngOnInit(): void {
-   this.count = this.commonservice.finalProductList.reduce((sum: any, item: { rs: any; }) => sum + item, 0);
+          this.commonservice.getCartItems().subscribe((value) => {
+             this.count1 = value;
+           });
   }
 
   navigateToCheckout() {

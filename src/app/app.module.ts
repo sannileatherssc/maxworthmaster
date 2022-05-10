@@ -52,6 +52,7 @@ import { ClientlistComponent } from './Components/clientlist/clientlist.componen
 import { PartnerlistComponent } from './Components/partnerlist/partnerlist.component';
 import { LeadershipComponent } from './Components/leadership/leadership.component';
 import { PrivacypolicyComponent } from './Components/privacypolicy/privacypolicy.component';
+import { Productpage2Component } from './Components/productpage2/productpage2.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +103,8 @@ import { PrivacypolicyComponent } from './Components/privacypolicy/privacypolicy
     ClientlistComponent,
     PartnerlistComponent,
     LeadershipComponent,
-    PrivacypolicyComponent
+    PrivacypolicyComponent,
+    Productpage2Component
   ],
   imports: [
     BrowserModule,
