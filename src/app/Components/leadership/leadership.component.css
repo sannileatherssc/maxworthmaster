@@ -252,14 +252,14 @@ li:hover{
 
 }
 
-li:hover{
+/* li:hover{
   color: #083e88;
   transform: scale(1.1);
-}
+} */
 
-.mid_content:hover{
+/* .mid_content:hover{
   color: #083e88;
-}
+} */
 
 .product-1 {
   text-align: center;
@@ -267,12 +267,13 @@ li:hover{
   display: flex;
   justify-content: center;
   cursor: pointer;
+  
 }
 
-h1:hover{
+/* h1:hover{
   color: #083e88;
   transform: scale(1.5);
-}
+} */
 
 .home1 {
   margin-top: 30px;

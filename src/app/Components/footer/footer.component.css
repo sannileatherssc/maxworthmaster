@@ -7,7 +7,7 @@
 }
 
 * {
-  font-family: Roboto /* Replace with your custom font */, roboto !important; 
+  font-family: Roboto /* Replace with your custom font */, roboto !important;
   /* Add !important to overwrite all elements */
 }
 
@@ -30,7 +30,7 @@
   height: 50px;
   margin: 10px 0px;
   border-radius: 0px 50px 50px 0px;
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   color: white;
   text-shadow: 0px 3px 5px black;
   font-weight: 500;
@@ -39,22 +39,20 @@
 }
 
 .flexcardTitle {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   text-transform: uppercase;
   font-size: 26px;
   font-weight: 400;
 }
 
-
-
 .flexcardText {
-  font-family: 'Jost', sans-serif;
+  font-family: "Jost", sans-serif;
   text-align: center;
   font-weight: 300;
 }
 
 .flexcardNumber:before {
-  content: '';
+  content: "";
   width: 34px;
   height: 90px;
   position: absolute;
@@ -62,13 +60,13 @@
   top: 0px;
   border-radius: 50px 0px 0px 50px;
   z-index: -1;
-/* background: #95B7A2; *//* background: -webkit-linear-gradient(bottom, #95B7A2, #AED2BC); */
-  background: -moz-linear-gradient(bottom, #95B7A2, #AED2BC);
-/* background: linear-gradient(to top, #95B7A2, #AED2BC); */;
+  /* background: #95B7A2; */ /* background: -webkit-linear-gradient(bottom, #95B7A2, #AED2BC); */
+  background: -moz-linear-gradient(bottom, #95b7a2, #aed2bc);
+  /* background: linear-gradient(to top, #95B7A2, #AED2BC); */
 }
 
 .flexcardNumber:after {
-  content: '';
+  content: "";
   width: 25px;
   height: 40px;
   position: absolute;
@@ -89,12 +87,9 @@ img.flexcardimgItem {
   width: 50%;
 }
 
-
-
 /* RESPONSİVE */
 
 @media only screen and (max-width: 800px) {
-
   .flexcard {
     width: 35%;
     margin-top: 20px;
@@ -103,19 +98,37 @@ img.flexcardimgItem {
   img.flexcardimgItem {
     width: 30%;
   }
-
 }
 
 @media only screen and (max-width: 500px) {
-
   .flexcard {
     width: 70%;
   }
-
-
 }
 
-.images{
-flex-direction: row;
-padding: 2px;
+.images {
+  flex-direction: row;
+  justify-content: baseline;
+  padding-left: 12px;
+}
+
+li::content {
+  vertical-align: baseline;
+}
+
+/* .a {
+  color: black;
+  font-size: 14px;
+  padding-top: 8px;
+  margin-top: 10px;
+} */
+
+
+/* .a:link{
+  color: black;
+  text-decoration: underline;
+} */
+
+.li {
+  font-size: large;
 }

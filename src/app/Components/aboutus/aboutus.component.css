@@ -64,18 +64,13 @@
   border-radius: 30px;
   cursor: pointer;
   /* background-image: url(../../../assets/img/plant8.png); */
-background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
-
-
-
-
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
-li:hover{
+/* li:hover{
   color: #083e88;
 
-
-}
+} */
 /* .flex-item {
   background: var(--white);
   padding: 5px;
@@ -252,27 +247,26 @@ li:hover{
   line-height: 54px;
   color: #083e88;
   margin-bottom: 20px;
- 
-  box-decoration-break:slice;
+
+  box-decoration-break: slice;
   cursor: pointer;
   width: 300px;
   width: max-content;
   opacity: 90%;
-
 }
 
-div:hover{
+/* div:hover{
   color: #083e88;
   transform: scale(1.1);
-}
+} */
 
-br{
+br {
   padding-top: 100px;
 }
 
-.mid_content:hover{
+/* .mid_content:hover{
   color: #083e88;
-}
+} */
 
 .product-1 {
   text-align: center;
@@ -282,10 +276,10 @@ br{
   cursor: pointer;
 }
 
-h1:hover{
+/* h1:hover{
   color: #083e88;
   transform: scale(1.5);
-}
+} */
 
 .home1 {
   margin-top: 30px;

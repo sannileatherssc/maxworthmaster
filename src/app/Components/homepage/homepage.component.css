@@ -35,7 +35,10 @@
   font-weight: bold;
   font-size: 3em;
   text-align: center;
-  box-shadow: 0px 10px 8px #00000040;
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   color: #083e88;
   padding-left: 40px;
   text-align: left;
@@ -70,14 +73,17 @@
   background: var(--white);
   padding: 5px;
   width: 260px;
-  height: 260px;
+  height: 290px;
   margin-top: 10px;
   line-height: 150px;
   color: white;
   font-weight: bold;
   font-size: 3em;
   text-align: center;
-  box-shadow: 0px 10px 8px #00000040;
+  /* box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22); */
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
   color: #083e88;
   padding-left: 40px;
   text-align: left;
@@ -114,8 +120,6 @@
   height: 100px;
 }
 
-
-
 .right-image {
   height: 452px;
   width: 747px;
@@ -151,7 +155,7 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 200;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 12px;
   padding-bottom: 10px;
 }
@@ -188,12 +192,15 @@
   display: flex;
   justify-content: center;
   cursor: pointer;
+  font-weight: 48px;
+  font-size: 32px;
+  line-height: 12px;
 }
 
-h1:hover{
+/* h1:hover{
   color: #083e88;
   transform: scale(1.5);
-}
+} */
 
 /* new */
 
@@ -229,7 +236,7 @@ h1:hover{
   padding: 5px;
   width: 1200px;
   height: 600px;
-  margin-top: 10px;
+  margin-top: 1px;
   margin-bottom: 12px;
   line-height: 150px;
   color: black;
@@ -239,12 +246,10 @@ h1:hover{
   cursor: pointer;
 }
 
-.flex-item1:hover{
+.flex-item1:hover {
   color: #000000;
-  transform: scale(1.2px)
+  transform: scale(1.2px);
 }
-
-
 
 .flex-item2 {
   padding: 5px;
@@ -296,8 +301,9 @@ h1:hover{
   width: 400px;
 }
 
-.img_content2{
+.img_content2 {
   padding: none;
+  margin-top: auto;
 }
 
 .img_content {
@@ -327,8 +333,6 @@ h1:hover{
   margin-bottom: 20px;
 }
 
-
-
 .end_content {
   background-color: #083e88;
   width: 120px;
@@ -349,9 +353,9 @@ h1:hover{
   border-radius: 28px;
 }
 
-.end_content:hover{
+.end_content:hover {
   transform: scale(1.2);
-  top:10px;
+  top: 10px;
 }
 
 span.cont {
@@ -394,18 +398,11 @@ span.cont {
   align-items: center;
   cursor: pointer;
   margin-top: 12px;
-
-
 }
-
-
 
 /* .li{
   opacity: 0.5;
 } */
-
-
-
 
 .link1 {
   color: #083e88;
@@ -437,7 +434,6 @@ span.cont {
   padding-right: 20rem;
   width: 40px;
   height: 40px;
-
 }
 
 .aviation-logo-partner {
@@ -450,18 +446,16 @@ span.cont {
 .aviation-logo1 {
   align-items: baseline;
   padding-right: 20rem;
-
-
 }
 
-li:hover{
-  color: #5E5C6B;
+li:hover {
+  color: #5e5c6b;
 }
 
 .aviation-logos {
   align-items: baseline;
   height: 60px;
-  width: 60px;
+  width: 100px;
   align-items: center;
   padding-right: 8rem;
 }
@@ -470,7 +464,6 @@ li:hover{
   width: 1269px;
   height: 384px;
   align-items: center;
-
 }
 
 .flex-item2 {
@@ -598,7 +591,6 @@ li {
   background-repeat: no-repeat;
   background-size: 500px 400px;
   background-position: center;
-
 }
 
 .carousel__slide:nth-child(3) {
@@ -606,7 +598,6 @@ li {
   background-repeat: no-repeat;
   background-size: 500px 400px;
   background-position: center;
-
 }
 
 .carousel__slide:nth-child(4) {
@@ -614,7 +605,6 @@ li {
   background-repeat: no-repeat;
   background-size: 500px 400px;
   background-position: center;
-
 }
 .carousel__slide:before {
   position: absolute;
@@ -708,6 +698,6 @@ li {
   right: -1rem;
 }
 
-
 /* Adding rotation css here */
+
 
