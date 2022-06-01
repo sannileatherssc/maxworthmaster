@@ -41,7 +41,7 @@
   text-align: center;
   margin-bottom: 80px;
   border-radius: 30px;
- 
+
 }
 
 
@@ -73,11 +73,9 @@ background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 
 }
 
-li:hover{
+/* li:hover{
   color: #083e88;
-
-
-}
+} */
 /* .flex-item {
   background: var(--white);
   padding: 5px;
@@ -245,7 +243,7 @@ li:hover{
   line-height: 54px;
   color: #083e88;
   margin-bottom: 20px;
- 
+
   box-decoration-break:slice;
   cursor: pointer;
   width: 300px;
@@ -254,10 +252,10 @@ li:hover{
 
 }
 
-div:hover{
+/* div:hover{
   color: #083e88;
   transform: scale(1.1);
-}
+} */
 
 .mid_content:hover{
   color: #083e88;
@@ -271,10 +269,13 @@ div:hover{
   cursor: pointer;
 }
 
-h1:hover{
+/* h1:hover{
   color: #083e88;
   transform: scale(1.5);
-}
+} */
+
+
+
 
 .home1 {
   margin-top: 30px;

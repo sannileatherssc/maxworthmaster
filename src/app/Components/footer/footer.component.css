@@ -114,3 +114,8 @@ img.flexcardimgItem {
 
 
 }
+
+.images{
+flex-direction: row;
+padding: 2px;
+}

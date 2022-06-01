@@ -11,40 +11,70 @@
     <li class="flex-item1">
       <div class="internal_flex">
         <div class="head_content">
-          Let’s Connect <br /><br />
+          Connect <br /><br />
 
-          New Delhi, INDIA 909, Shahpuri's Tirath Singh Tower, C-58, Community
-          Centre, Pankha Road, Janakpuri, New Delhi 110058
+          909, Shahpuri's Tirath Singh Tower, C-58, Community Centre, Pankha
+          Road, Janakpuri, New Delhi - 110058, India.
         </div>
 
-        <br/>
-        
+        <br />
 
         <div class="mid_content">
-          For sales queries : Call us at : +91 11 25552171 Email us at :
-          info@maxworthsystems.com
+          For sales queries : Call us at : +91 11 25552171
+          <br />
+          Email us at : info@maxworthsystems.com
         </div>
-
       </div>
     </li>
     <li class="flex-item1">
       <div class="img_content">
         <!-- svg -->
         <form action="">
-          <input type="text" placeholder="Name" class="input1" />
-          <input type="email" placeholder="Email" class="input1" />
-          <input type="text" placeholder="Mobile" class="input1" />
-          <input type="text" placeholder="Designation" class="input1" />
-          <input type="text" placeholder="Company" class="input1" />
-          <input type="text" placeholder="Location" class="input1" />
+          <input
+            type="text"
+            [(ngModel)]="name"
+            placeholder="Name"
+            class="input1"
+          />
+          <input
+            type="email"
+            [(ngModel)]="email"
+            placeholder="Email"
+            class="input1"
+          />
+          <input
+            type="text"
+            [(ngModel)]="mobile"
+            placeholder="Mobile"
+            class="input1"
+          />
+          <input
+            type="text"
+            [(ngModel)]="desgination"
+            placeholder="Designation"
+            class="input1"
+          />
+          <input
+            type="text"
+            [(ngModel)]="company"
+            placeholder="Company"
+            class="input1"
+          />
+          <input
+            type="text"
+            [(ngModel)]="location"
+            placeholder="Location"
+            class="input1"
+          />
           <input
             type="textarea"
+            [(ngModel)]="query"
             placeholder="Whats your query"
             class="input1"
           />
 
           <div>
-            <button class="button2">Submit</button>
+            <button (click)="sendEmail()" class="button2">Submit</button>
           </div>
         </form>
       </div>

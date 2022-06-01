@@ -80,7 +80,7 @@ const routes: Routes = [
   { path: 'career', component: CareerComponent},
   {path:'clientlist',component:ClientlistComponent},
   {path:'leadership',component:LeadershipComponent},
-  {path:'partnershiplist',component:PartnerlistComponent},
+  {path:'partnerlist',component:PartnerlistComponent},
   {path:'privacypolicy',component:PrivacypolicyComponent},
   {path: 'product2', component:Productpage2Component}
 ];

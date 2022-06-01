@@ -1,8 +1,8 @@
 <nav class="navbar" routerLink="/homepage">
   <div class="brand-title" routerLink="/homepage">
     <img
-      src="../../../assets/img/logo (1).jpg "
-      alt="../../../assets/img/logo (1).jpg "
+      src="../../../assets/img/logo _1_.jpg "
+      alt="../../../assets/img/logo _1_.jpg "
     />
   </div>
   <a href="#" class="toggle-button">
@@ -16,31 +16,31 @@
         <button (click)="navigateToHomepage()" class="btn default">Home</button>
       </li>
       <li>
-        <button class="btn default dropdown">
+        <button [routerLink]='["/aboutus"]' (click)="$event.stopPropagation();$event.preventDefault()" class="btn default dropdown">
           About us
           <div class="dropdown-content">
-            <a routerLink="/aboutus">About Company</a>
-            <a routerLink="/leadership">Leadership</a>
-            <a routerLink="/clientlist">Client List</a>
-            <a routerLink="/partnershiplist">Partner List</a>
+            <a [routerLink]='["/aboutus"]' (click)="$event.stopPropagation();$event.preventDefault()">About Company</a>
+            <a [routerLink]='["/leadership"]' (click)="$event.stopPropagation();$event.preventDefault()">Leadership</a>
+            <a [routerLink]='["/clientlist"]' (click)="$event.stopPropagation();$event.preventDefault()">Client List</a>
+            <a [routerLink]='["/partnerlist"]' (click)="$event.stopPropagation();$event.preventDefault()">Partner List</a>
           </div>
         </button>
       </li>
       <li>
-        <button routerLink="/product2" class="btn default">Products</button>
+        <button [routerLink]='["/product2"]' (click)="$event.stopPropagation();$event.preventDefault()" class="btn default">Products</button>
       </li>
       <li>
-        <button (click)="navigateToSolutions()" class="btn default">
+        <button [routerLink]='["/solutions"]' (click)="$event.stopPropagation();$event.preventDefault()" class="btn default">
           Solutions
         </button>
       </li>
       <li>
-        <button (click)="navigateToConnect()" class="btn default">
+        <button [routerLink]='["/connect"]' (click)="$event.stopPropagation();$event.preventDefault()" class="btn default">
           Contact us
         </button>
       </li>
 
-      <li (click)="navigateToCheckout()" class="cart1">
+      <li [routerLink]='["/checkout"]' (click)="$event.stopPropagation();$event.preventDefault()" class="cart1">
         <img src="../../../assets/img/shopping-cart.png" />
         <i class="fa" style="font-size: 24px"></i>
         <span class="badge badge-warning" id="lblCartCount"> {{ count1 }} </span>

@@ -20,8 +20,11 @@
   background-color: #083e88;
   border-radius: 16px;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 24px;
   cursor: pointer;
+  align-items: center;
+  margin-left: 94px;
+  
 }
 
 .flex-r,
@@ -41,7 +44,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 20px 10px;
-  background: #e5e5e5;
+  background: #FFFFFF;
 }
 
 .login-text {

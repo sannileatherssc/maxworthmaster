@@ -20,6 +20,11 @@ body {
   /* Add !important to overwrite all elements */
 }
 
+.demo1{
+  padding-left: 26px;
+  margin-left: 26px;
+}
+
 .button1 {
   display: flex;
   font-family: "Poppins";
@@ -74,9 +79,9 @@ body {
 .title {
   padding-top: 5px;
   line-height: 10px;
-  font-size: 32px;
+  font-size: 22px;
   font-family: "Poppins";
-  font-weight: 800;
+  font-weight: 20px;
   color: #202020;
 }
 .subtitle {
