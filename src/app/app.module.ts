@@ -55,6 +55,7 @@ import { LeadershipComponent } from './Components/leadership/leadership.componen
 import { PrivacypolicyComponent } from './Components/privacypolicy/privacypolicy.component';
 import { Productpage2Component } from './Components/productpage2/productpage2.component';
 import { BannerComponent } from './Components/banner/banner.component';
+import { CarouselComponent } from './Components/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -108,6 +109,7 @@ import { BannerComponent } from './Components/banner/banner.component';
     PrivacypolicyComponent,
     Productpage2Component,
     BannerComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,

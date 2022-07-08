@@ -26,6 +26,7 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+
               "src/styles.css"
             ],
             "scripts": []
@@ -35,8 +36,8 @@
               "budgets": [
                 {
                   "type": "initial",
-              "maximumWarning": "4mb",
-              "maximumError": "6mb"
+                  "maximumWarning": "4mb",
+                  "maximumError": "6mb"
                 },
                 {
                   "type": "anyComponentStyle",

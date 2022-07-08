@@ -20,7 +20,7 @@
 }
 
 * {
-  font-family: Roboto /* Replace with your custom font */, roboto !important; 
+  font-family: Roboto /* Replace with your custom font */, roboto !important;
   /* Add !important to overwrite all elements */
 }
 
@@ -50,6 +50,7 @@
   padding-left: 40px;
   text-align: left;
   margin-bottom: 80px;
+  border-radius: 2rem;
 }
 
 .img_box {
