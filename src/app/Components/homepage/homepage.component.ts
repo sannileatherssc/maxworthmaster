@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NavigationserviceService } from 'src/app/Services/navigationservice.service';
+// import * as $ from "jquery";
+declare var $: any;
 
 @Component({
   selector: 'app-homepage',
@@ -8,9 +10,17 @@ import { NavigationserviceService } from 'src/app/Services/navigationservice.ser
   styleUrls: ['./homepage.component.css'],
 })
 export class HomepageComponent implements OnInit {
-  constructor(private navigation: NavigationserviceService) {}
+  constructor(private navigation: NavigationserviceService) {
+  }
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    $(document).ready(function () {
+      $('.carousel').carousel({
+        interval: 1200
+      })
+    });
+  }
+
   navigateToProduct() {
     this.navigation.navigateToProduct();
   }

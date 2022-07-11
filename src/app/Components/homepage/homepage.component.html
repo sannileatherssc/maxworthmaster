@@ -2,61 +2,59 @@
 
 <body>
   <!-- <app-banner></app-banner> -->
-
-  <!-- banner -->
-  <ul class="flex-container">
-    <li class="flex-item1s">
-      <div class="img_content2">
-        <!-- Adding slider here -->
-
-        <section class="carousel" aria-label="Gallery">
-          <ol class="carousel__viewport">
-            <li id="carousel__slide1" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper">
-                <a href="#carousel__slide4" class="carousel__prev"
-                  >Go to last slide</a
-                >
-                <a href="#carousel__slide2" class="carousel__next"
-                  >Go to next slide</a
-                >
-              </div>
-            </li>
-            <li id="carousel__slide2" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper"></div>
-              <a href="#carousel__slide1" class="carousel__prev"
-                >Go to previous slide</a
-              >
-              <a href="#carousel__slide3" class="carousel__next"
-                >Go to next slide</a
-              >
-            </li>
-            <li id="carousel__slide3" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper"></div>
-              <a href="#carousel__slide2" class="carousel__prev"
-                >Go to previous slide</a
-              >
-              <a href="#carousel__slide4" class="carousel__next"
-                >Go to next slide</a
-              >
-            </li>
-            <li id="carousel__slide4" tabindex="0" class="carousel__slide">
-              <div class="carousel__snapper"></div>
-              <a href="#carousel__slide3" class="carousel__prev"
-                >Go to previous slide</a
-              >
-              <a href="#carousel__slide1" class="carousel__next"
-                >Go to first slide</a
-              >
-            </li>
-          </ol>
-        </section>
+  
+<div class="carousel slide" id="slider" data-ride="carousel">
+  <!--indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#slider" data-slide-to="0" class="active"></li>
+    <li data-target="#slider" data-slide-to="1"></li>
+    <li data-target="#slider" data-slide-to="2"></li>
+    <li data-target="#slider" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="../../../assets/img/home1.jpg">
+      <div class="carousel-caption">
+        <h4>Welcome</h4>
+        <p>Travel! Enjoy!</p>
       </div>
-    </li>
-  </ul>
+    </div>
 
-  <br />
-  <br />
-  <br />
+    <div class="carousel-item" id="slide2">
+      <img src="../../../assets/img/home2.jpg">
+      <div class="carousel-caption">
+        <h4>Welcome</h4>
+        <p>Travel! Enjoy!</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" id="slide3">
+      <img src="../../../assets/img/home3.jpg">
+      <div class="carousel-caption">
+        <h4>Welcome</h4>
+        <p>Travel! Enjoy!</p>
+      </div>
+    </div>
+
+    <div class="carousel-item" id="slide4">
+      <img src="../../../assets/img/home4.jpg">
+      <div class="carousel-caption">
+        <h4>Welcome</h4>
+        <p>Travel! Enjoy!</p>
+      </div>
+    </div>
+
+  </div>
+  <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 
   <!-- Banner content -->
 
