@@ -19,11 +19,12 @@
   color: #e5e5e5;
   background-color: #083e88;
   border-radius: 16px;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 24px;
   cursor: pointer;
   align-items: center;
-  margin-left: 94px;
+  margin-left: 74px;
+  width: 140px;
   
 }
 

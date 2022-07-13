@@ -110,8 +110,9 @@ img.flexcardimgItem {
   flex-direction: row;
   justify-content: baseline;
   padding-left: 12px;
-  height: 24px;
-  width: 24px;
+  height: 34px;
+  width: 34px;
+  margin-top: 10px;
 }
 
 li::content {

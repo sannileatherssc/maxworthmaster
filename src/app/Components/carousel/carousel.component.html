@@ -1,19 +1,55 @@
-<body>
-   <ul class="slideshow">
-      <li>
-        <span>Image 01</span>
-        <div><h3>Maxworth provide a smart solution</h3></div>
-      </li>
-      <li><span>Image 02</span></li>
-      <li><span>Image 03</span></li>
-      <li><span>Image 04</span></li>
-      <li><span>Image 05</span></li>
-      <li><span>Image 06</span></li>
-    </ul>
-    <div class="container">
-      <header>
-        <h1>MaxWorth <span>Systems</span></h1>
-      </header>
+<div class="slideshow-container">
+  <div class="mySlides fade" *ngIf="temp == 0">
+    <div class="numbertext">1 / 4</div>
+    <img class="img1"
+      src="../../../assets/img/avi1 _1_.jpg"
+      style="width: 100%"
+    />
+    <div class="text">
+      <h1>MaxWorth Systems</h1>
+      <p>We provide the solution which help the industry</p>
     </div>
+  </div>
 
-</body>
+  <div class="mySlides2 fade" *ngIf="temp == 1">
+    <div class="numbertext">2 / 4</div>
+    <img
+      src="../../../assets/img/avi1 _2_.jpg"
+      style="width: 100%"
+      alt="cdef"
+    />
+      <div class="text">
+      <h1>MaxWorth Systems</h1>
+      <p>We provide the solution which help the industry</p>
+    </div>
+  </div>
+
+  <div class="mySlides3 fade" *ngIf="temp == 2">
+    <div class="numbertext">3 / 4</div>
+    <img src="../../../assets/img/avi1 _3_.jpg" style="width: 100%" alt="efgh" />
+      <div class="text">
+      <h1>MaxWorth Systems</h1>
+      <p>We provide the solution which help the industry</p>
+    </div>
+  </div>
+
+    <div class="mySlides3 fade" *ngIf="temp == 3">
+    <div class="numbertext">4 / 4</div>
+    <img src="../../../assets/img/avi1 _4_.jpg" style="width: 100%" alt="efgh" />
+      <div class="text">
+      <h1>MaxWorth Systems</h1>
+      <p>We provide the solution which help the industry</p>
+    </div>
+  </div>
+  <!-- <a class="prev" #mySlides (click)="plusSlides(-1)">❮</a>
+<a class="next" (click)="plusSlides(1)">❯</a> -->
+</div>
+<br />
+
+<!-- <div style="text-align:center">
+<span class="dot" (click)="currentSlide(1)"></span>
+<span class="dot" (click)="currentSlide(2)"></span>
+<span class="dot" (click)="currentSlide(3)"></span>
+</div> -->
+
+<div></div>

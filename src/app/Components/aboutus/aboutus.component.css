@@ -186,6 +186,7 @@
   justify-content: space-around;
   text-align: left;
   padding: 120px;
+  padding-top: 0.5px;
 }
 
 .internal_flex1 {
